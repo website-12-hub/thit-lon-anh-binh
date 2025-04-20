@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thịt Lợn Anh Bình - Thịt Lợn Sạch Chất Lượng Cao</title>
+    <link rel="icon" href="./Images/Logo.png" class="w-100" type="image/png" />
+    <meta name="description"
+        content="Cung cấp thịt lợn sạch, an toàn với chất lượng cao nhất. Giao hàng tận nơi tại Thái Nguyên.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="#home" class="flex items-center">
+                    <img src="images/logo.png" alt="Thịt Lợn Sạch Anh Bình" class="h-14 mr-3">
+                    <h1 class="text-xl font-bold text-red-700 hidden sm:block">Thịt Lợn Anh Bình</h1>
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="text-gray-800 hover:text-red-600 font-medium">Trang chủ</a>
+                <a href="#products" class="text-gray-800 hover:text-red-600 font-medium">Sản phẩm</a>
+                <a href="#about" class="text-gray-800 hover:text-red-600 font-medium">Về chúng tôi</a>
+                <a href="#testimonials" class="text-gray-800 hover:text-red-600 font-medium">Đánh giá</a>
+                <a href="#contact" class="text-gray-800 hover:text-red-600 font-medium">Liên hệ</a>
+            </nav>
+            <div class="md:hidden">
+                <button class="text-gray-800 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <div class="hidden md:block">
+                <a href="tel:0328262286"
+                    class="bg-red-600 text-white px-4 py-2 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                    <i class="fas fa-phone-alt mr-2"></i>0328 262 286
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="text-white py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gray-800">Thịt Lợn Sạch Chất Lượng Cao</h2>
+                    <p class="text-xl md:text-2xl mb-10 max-w-3xl text-gray-700">Cung cấp thịt lợn tươi ngon, an toàn vệ
+                        sinh từ những
+                        trang trại được chứng nhận</p>
+                    <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                        <a href="#products"
+                            class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">Xem
+                            sản phẩm</a>
+                        <a href="#contact"
+                            class="bg-white hover:bg-gray-100 text-red-600 font-bold py-3 px-8 rounded-full border border-red-600 transition duration-300">Liên
+                            hệ ngay</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="images/banner.jpg" alt="Thịt Lợn Sạch Anh Bình" class="w-full rounded-lg shadow-xl">
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <h3 class="text-2xl font-semibold text-green-700 italic">Shop Smart, Eat Fresh</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6 shadow-lg rounded-lg hover:shadow-xl transition duration-300">
+                    <div class="text-red-600 text-4xl mb-4">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Chất Lượng Đảm Bảo</h3>
+                    <p class="text-gray-600">Thịt lợn được chọn lọc kỹ càng, đảm bảo tươi ngon và an toàn vệ sinh thực
+                        phẩm.</p>
+                </div>
+                <div class="text-center p-6 shadow-lg rounded-lg hover:shadow-xl transition duration-300">
+                    <div class="text-red-600 text-4xl mb-4">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Giao Hàng Nhanh Chóng</h3>
+                    <p class="text-gray-600">Dịch vụ giao hàng tận nơi trong ngày, đảm bảo thịt luôn tươi ngon khi đến
+                        tay khách hàng.</p>
+                </div>
+                <div class="text-center p-6 shadow-lg rounded-lg hover:shadow-xl transition duration-300">
+                    <div class="text-red-600 text-4xl mb-4">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Giá Cả Hợp Lý</h3>
+                    <p class="text-gray-600">Cam kết mang đến giá thành tốt nhất với chất lượng cao nhất cho khách hàng.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Sản Phẩm Của Chúng Tôi</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Đa dạng các loại thịt lợn tươi ngon, được chọn lọc kỹ càng từ
+                    những trang trại uy tín</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/anh-1.jpg" alt="Thịt ba chỉ" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Thịt Ba Chỉ</h3>
+                        <p class="text-gray-600 mb-4">Thịt ba chỉ tươi ngon, thích hợp cho các món nướng, quay, kho...
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-red-600 font-bold text-xl">180.000đ/kg</span>
+                            <a href="#contact"
+                                class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition duration-300">Đặt
+                                hàng</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/thit-nac-vai.webp" alt="Thịt nạc vai" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Thịt Nạc Vai</h3>
+                        <p class="text-gray-600 mb-4">Thịt nạc vai mềm, ngọt, thích hợp cho các món xào, luộc...</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-red-600 font-bold text-xl">195.000đ/kg</span>
+                            <a href="#contact"
+                                class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition duration-300">Đặt
+                                hàng</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/suon-non.webp" alt="Sườn non" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Sườn Non</h3>
+                        <p class="text-gray-600 mb-4">Sườn non mềm, ngọt thịt, thích hợp cho các món nướng, hầm...</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-red-600 font-bold text-xl">210.000đ/kg</span>
+                            <a href="#contact"
+                                class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition duration-300">Đặt
+                                hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="#contact"
+                    class="inline-block bg-red-600 text-white px-6 py-3 rounded-full font-medium hover:bg-red-700 transition duration-300">Xem
+                    tất cả sản phẩm</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <img src="images/ve-chung-toi.jpg" alt="Về chúng tôi" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Về Chúng Tôi</h2>
+                    <p class="text-gray-600 mb-4">Thịt Lợn Anh Bình tự hào là đơn vị cung cấp thịt lợn sạch hàng đầu tại
+                        Thái Nguyên. Chúng tôi cam kết mang đến những sản phẩm
+                        thịt lợn tươi ngon, an toàn và chất lượng cao nhất.</p>
+                    <p class="text-gray-600 mb-4">Chúng tôi hợp tác với các trang trại chăn nuôi uy tín, áp dụng quy
+                        trình chăn nuôi khép kín, đảm bảo lợn được nuôi trong môi trường sạch sẽ, được chăm sóc tốt và
+                        không sử dụng chất tăng trưởng.</p>
+                    <p class="text-gray-600 mb-6">Mỗi sản phẩm đến tay khách hàng đều trải qua quy trình kiểm soát chất
+                        lượng nghiêm ngặt, đảm bảo an toàn vệ sinh thực phẩm và giữ được hương vị tự nhiên của thịt.</p>
+                    <div class="flex space-x-4">
+                        <a href="#testimonials"
+                            class="bg-red-600 text-white px-6 py-3 rounded-full font-medium hover:bg-red-700 transition duration-300">Đánh
+                            giá từ khách hàng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Khách Hàng Nói Gì Về Chúng Tôi</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Sự hài lòng của khách hàng là niềm tự hào và động lực để
+                    chúng tôi không ngừng phát triển</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">"Thịt lợn ở đây rất tươi ngon, thịt chắc và thơm. Đặc biệt là
+                        thịt ba chỉ, khi nướng lên rất thơm và không bị khô. Sẽ tiếp tục ủng hộ!"</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+                            <img src="images/tran-gia-kiet.jpg" alt="Khách hàng" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Trần Gia Kiệt</h4>
+                            <p class="text-gray-500 text-sm">Khách hàng thường xuyên</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">"Tôi rất hài lòng với dịch vụ giao hàng nhanh chóng và thịt
+                        luôn tươi ngon. Nhân viên tư vấn nhiệt tình, giúp tôi chọn được loại thịt phù hợp với món ăn."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+                            <img src="images/ngo-thi-dung.jpg" alt="Khách hàng" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Ngô Thị Dung</h4>
+                            <p class="text-gray-500 text-sm">Chủ nhà hàng</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">"Đã mua thịt ở đây nhiều lần và chưa bao giờ thất vọng. Thịt
+                        luôn tươi, sạch và có mùi thơm đặc trưng. Giá cả hợp lý so với chất lượng mang lại."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+                            <img src="images/nguyen-nhu-ngoc.png" alt="Khách hàng" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Nguyễn Thị Như</h4>
+                            <p class="text-gray-500 text-sm">Đầu bếp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Liên Hệ Với Chúng Tôi</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Hãy liên hệ ngay để đặt hàng hoặc tìm hiểu thêm về sản phẩm
+                    của chúng tôi</p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="md:w-1/2">
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-6">Thông Tin Liên Hệ</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="text-red-600 mt-1 mr-4">
+                                    <i class="fas fa-map-marker-alt text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Địa chỉ:</h4>
+                                    <p class="text-gray-600">Số 8 Đường Xuân Hòa, Phường Phan Đình Phùng, TP. Thái
+                                        Nguyên</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-red-600 mt-1 mr-4">
+                                    <i class="fas fa-phone-alt text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Điện thoại:</h4>
+                                    <p class="text-gray-600"><a href="tel:0328262286" class="hover:text-red-600">0328
+                                            262 286</a></p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-red-600 mt-1 mr-4">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Email:</h4>
+                                    <p class="text-gray-600"><a href="mailto:contact@thitlonanhbinh.com"
+                                            class="hover:text-red-600">contact@thitlonanhbinh.com</a></p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-red-600 mt-1 mr-4">
+                                    <i class="fas fa-clock text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Giờ làm việc:</h4>
+                                    <p class="text-gray-600">Thứ 2 - Chủ nhật: 7:00 - 19:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h4 class="font-medium mb-4">Kết nối với chúng tôi:</h4>
+                            <div class="flex space-x-4">
+                                <a href="https://www.facebook.com/people/Th%E1%BB%8Bt-L%E1%BB%A3n-S%E1%BA%A1ch-Anh-B%C3%ACnh-Mang-Th%C6%B0%C6%A1ng-Hi%E1%BB%87u-Tr%C3%A0-Xanh/61575238079843/"
+                                    class="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="http://www.youtube.com/@B%C3%ACnhNguy%E1%BB%85nvlog-n6o"
+                                    class="w-10 h-10 bg-red-600 text-white rounded-full flex items-center justify-center hover:bg-red-700 transition duration-300">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#"
+                                    class="w-10 h-10 bg-green-600 text-white rounded-full flex items-center justify-center hover:bg-green-700 transition duration-300">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="#"
+                                    class="w-10 h-10 bg-pink-600 text-white rounded-full flex items-center justify-center hover:bg-pink-700 transition duration-300">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <form class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-6">Gửi Yêu Cầu</h3>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 mb-2">Họ và tên</label>
+                            <input type="text" id="name"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600">
+                        </div>
+                        <div class="mb-4">
+                            <label for="phone" class="block text-gray-700 mb-2">Số điện thoại</label>
+                            <input type="tel" id="phone"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 mb-2">Email</label>
+                            <input type="email" id="email"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 mb-2">Nội dung</label>
+                            <textarea id="message" rows="4"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-red-600 text-white py-3 rounded-lg font-medium hover:bg-red-700 transition duration-300">Gửi
+                            yêu cầu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="py-10">
+        <div class="container mx-auto px-4">
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.0752835167405!2d105.84656727504766!3d21.58298428020868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313527c72051e9bf%3A0x6a0f1f2b389d5cb6!2zOCBYdcOibiBIw7JhLCBQaGFuIMSQw6xuaCBQaMO5bmcsIFRow6BuaCBwaOG7kSBUaMOhaSBOZ3V5w6puLCBUaMOhaSBOZ3V5w6puLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1745143762088!5m2!1sen!2s"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center md:items-start">
+                        <img src="images/logo.png" alt="Thịt Lợn Sạch Anh Bình" class="h-16 mb-3 sm:mr-3">
+                        <h3 class="text-xl font-bold -mt-4 lg:mt-4 text-red-700">Thịt Lợn Anh Bình</h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">Cung cấp thịt lợn sạch, an toàn với chất lượng cao nhất. Giao hàng tận
+                        nơi tại Thái Nguyên.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/people/Th%E1%BB%8Bt-L%E1%BB%A3n-S%E1%BA%A1ch-Anh-B%C3%ACnh-Mang-Th%C6%B0%C6%A1ng-Hi%E1%BB%87u-Tr%C3%A0-Xanh/61575238079843/"
+                            class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="http://www.youtube.com/@B%C3%ACnhNguy%E1%BB%85nvlog-n6o"
+                            class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Liên kết nhanh</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">Trang chủ</a>
+                        </li>
+                        <li><a href="#products" class="text-gray-400 hover:text-white transition duration-300">Sản
+                                phẩm</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">Về chúng
+                                tôi</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition duration-300">Đánh
+                                giá</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Liên
+                                hệ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Sản phẩm</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Thịt ba chỉ</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Thịt nạc vai</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Sườn non</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Thịt chân giò</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Thịt nạc thăn</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Thông tin liên hệ</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt w-5 text-red-500"></i>
+                            <span class="ml-2 text-gray-400">Số 8 Đường Xuân Hòa, Phường Phan Đình Phùng, TP. Thái
+                                Nguyên</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt w-5 text-red-500"></i>
+                            <span class="ml-2 text-gray-400"><a href="tel:0328262286" class="hover:text-white">0328 262
+                                    286</a></span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope w-5 text-red-500"></i>
+                            <span class="ml-2 text-gray-400"><a href="mailto:contact@thitlonanbinh.com"
+                                    class="hover:text-white">contact@thitlonanhbinh.com</a></span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock w-5 text-red-500"></i>
+                            <span class="ml-2 text-gray-400">Thứ 2 - Chủ nhật: 7:00 - 19:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-10 pt-8">
+                <div class="justify-between items-center text-center">
+                    <p class="text-gray-400 mb-4 md:mb-0">© 2025 Thịt Lợn Anh Bình.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#"
+        class="back-to-top fixed bottom-8 right-8 bg-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-red-700 transition duration-300"
+        style="display: none;">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div class="mobile-menu fixed inset-0 bg-gray-900 bg-opacity-90 z-50 flex items-center justify-center"
+        style="display: none;">
+        <button class="absolute top-6 right-6 text-white text-3xl close-menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <nav class="text-center">
+            <ul class="space-y-6">
+                <li><a href="#home"
+                        class="text-white text-2xl font-medium hover:text-red-500 transition duration-300 mobile-link">Trang
+                        chủ</a></li>
+                <li><a href="#products"
+                        class="text-white text-2xl font-medium hover:text-red-500 transition duration-300 mobile-link">Sản
+                        phẩm</a></li>
+                <li><a href="#about"
+                        class="text-white text-2xl font-medium hover:text-red-500 transition duration-300 mobile-link">Về
+                        chúng tôi</a></li>
+                <li><a href="#testimonials"
+                        class="text-white text-2xl font-medium hover:text-red-500 transition duration-300 mobile-link">Đánh
+                        giá</a></li>
+                <li><a href="#contact"
+                        class="text-white text-2xl font-medium hover:text-red-500 transition duration-300 mobile-link">Liên
+                        hệ</a></li>
+                <li class="mt-8">
+                    <a href="tel:0328262286"
+                        class="bg-red-600 text-white px-6 py-3 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                        <i class="fas fa-phone-alt mr-2"></i>0328 262 286
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- JavaScript for interactive elements -->
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.querySelector('.fa-bars').parentElement;
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const closeMenu = document.querySelector('.close-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            });
+        });
+
+        // Back to top button
+        const backToTopButton = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'flex';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
